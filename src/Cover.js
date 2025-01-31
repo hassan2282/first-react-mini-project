@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal'
 
 function Cover() {
   return (
-    <div className='flex flex-row relative w-[70%] justify-around items-center rounded-md z-20 overflow-hidden bg-purple-950 bg-opacity-5 before:contents-[" "] before:rounded-md       before:absolute before:inset-1 before:-z-10 before:filter before:backdrop-blur-xl'>
+    <div className='flex flex-row relative w-[70%] justify-around items-center rounded-md z-20 overflow-hidden bg-purple-950 bg-opacity-5 before:contents-[" "] before:rounded-md before:absolute before:inset-1 before:-z-10 before:filter before:backdrop-blur-xl'>
         <div className='flex flex-col items-start py-12 text-white p-3 flex-wrap h-full' dir='rtl'>
       <Fade left>
             <div className='flex flex-col flex-wrap items-start text-[2.5rem]'>
