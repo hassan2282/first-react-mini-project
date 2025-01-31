@@ -2,8 +2,8 @@ import './App.css';
 import { Icon } from 'react-icons-kit'
 import { home } from 'react-icons-kit/icomoon/home'
 import Header from './Header';
-import Cover from './Cover';
 import Footer from './Footer';
+import Content from './Content';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <source src={require('./vid/2.mp4')} type="video/mp4"></source>  
       </video>
       <Header />
-      <Cover />
+      <Content />
       <Footer />
     </div>
   );
