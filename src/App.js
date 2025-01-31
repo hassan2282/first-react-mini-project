@@ -7,10 +7,7 @@ import Content from './Content';
 
 function App() {
   return (
-    <div className='flex flex-col w-full min-h-screen overflow-hidden bg-black items-center'>
-      <video autoPlay muted loop className='absolute w-[100%] h-auto z-0'>    
-        <source src={require('./vid/2.mp4')} type="video/mp4"></source>  
-      </video>
+    <div className='flex flex-col w-full min-h-screen overflow-hidden bg-black items-center' style={{fontFamily: 'Vazir'}}>
       <Header />
       <Content />
       <Footer />
