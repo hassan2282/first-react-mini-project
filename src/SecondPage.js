@@ -60,7 +60,7 @@ function SecondPage() {
                 <Lottie animationData={fast} className='absolute z-0 w-full opacity-80'/>
 
                   <Fade left>
-                    <img src={require('./images/phone3.png')} className=''/>
+                    <img src={require('./images/phone3.png')}/>
                   </Fade>
                 </div>
               </div> 

@@ -2,11 +2,15 @@ import React from 'react'
 import Icon from 'react-icons-kit'
 import {apple, android, windows} from 'react-icons-kit/fa'
 import { Fade } from 'react-reveal'
+import Lottie from "lottie-react";
+import fast from "./lotties/lottie.json"
 
 function ThirdPage() {
   return (
     <div className='flex flex-col w-screen h-96 p-10 items-center justify-center text-purple-400 bg-purple-950'>
         <div className='flex flex-col w-[40%] items-center justify-center gap-4'>
+        <Lottie animationData={fast} className='absolute z-0 w-[40%] opacity-20 hue-rotate-90'/>
+
             <Fade right>
                 <h1 className='text-2xl text-white'>دانلود اپلیکیشن ما</h1>
             </Fade>
