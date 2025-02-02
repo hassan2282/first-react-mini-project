@@ -2,6 +2,7 @@ import React from 'react'
 import Cover from './Cover'
 import SecondPage from './SecondPage';
 import ThirdPage from './ThirdPage';
+import ForthPage from './ForthPage';
 
 function Content() {
   return (
@@ -14,6 +15,7 @@ function Content() {
       </div>
           <SecondPage />
           <ThirdPage />
+          <ForthPage />
     </div>
   )
 }
