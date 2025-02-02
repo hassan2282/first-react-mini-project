@@ -5,9 +5,9 @@ import { Fade } from 'react-reveal'
 
 function ForthPage() {
   return (
-    <div className='flex flex-col justify-center items-center w-screen h-96 overflow-hidden'>
-        <div className='flex flex-col justify-center items-center w-full h-full bg-fixed bg-[url(./images/6.jpg)] bg-cover z-10 '>
-          <div className='flex flex-col justify-center items-center w-full h-full rounded-md space-y-10 backdrop-blur-xl'>
+    <div className='flex flex-col justify-center items-center w-screen h-screen overflow-hidden'>
+        <div className='flex flex-col justify-center items-center w-full h-full bg-fixed bg-[url(./images/16.jpg)] bg-cover z-10 '>
+          <div className='flex flex-col justify-center items-center w-[60%] h-[50%] rounded-md space-y-10 backdrop-blur-xl'>
             <Fade left>
                 <h1 className='text-2xl text-white'>!حالا مشترک شوید</h1>
             </Fade>
