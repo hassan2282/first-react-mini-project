@@ -3,6 +3,7 @@ import Cover from './Cover'
 import SecondPage from './SecondPage';
 import ThirdPage from './ThirdPage';
 import ForthPage from './ForthPage';
+import FifthPage from './FifthPage';
 
 function Content() {
   return (
@@ -16,6 +17,7 @@ function Content() {
           <SecondPage />
           <ThirdPage />
           <ForthPage />
+          <FifthPage />
     </div>
   )
 }
