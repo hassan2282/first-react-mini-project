@@ -7,7 +7,7 @@ const AccordionItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='flex flex-row relative justify-between p-2 before:animate-pulse items-start border-white z-20 border-2 rounded-md bg-black before:-z-10 text-white before:contents[""] before:absolute before:inset-0 before:bg-purple-800 before:blur-xl'>
+    <div className='flex flex-row relative justify-between p-2 items-start border-white z-20 border-2 rounded-md bg-black before:-z-10 text-white before:contents[""] before:absolute before:inset-0 before:bg-purple-800 before:blur-sm'>
       <div className='flex flex-col space-y-5 overflow-hidden justify-center items-start'>
         <li className=''>{question}</li>
         <p className={`${isOpen ? 'h-14' : 'h-0'} duration-300`}>{answer}</p>
@@ -40,12 +40,12 @@ function FifthPage() {
 
   return (
       <Fade bottom>
-    <div className='flex flex-col w-screen h-[40rem] bg-zinc-900 items-center justify-center'>
+    <div className='flex flex-col w-screen h-[40rem] bg-white text-black items-center justify-center'>
 
       <div className='flex flex-col w-[50%] h-auto items-center justify-center space-y-6'>
-        <Icon icon={book} size={40} className='text-white' />
-        <h1 className='text-3xl text-gray-300'>سوالات متداول</h1>
-        <p className='text-center text-white'>
+        <Icon icon={book} size={40} className='text-purple-950' />
+        <h1 className='text-3xl text-gray-600'>سوالات متداول</h1>
+        <p className='text-center text-purple-950'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز
         </p>
         <ul className='flex flex-col w-full space-y-4' dir='rtl'>
