@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Icon from 'react-icons-kit';
 import { book, plus } from 'react-icons-kit/fa';
+import { Fade } from 'react-reveal';
 
 const AccordionItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,7 +39,9 @@ function FifthPage() {
   ];
 
   return (
+      <Fade bottom>
     <div className='flex flex-col w-screen h-[40rem] bg-zinc-900 items-center justify-center'>
+
       <div className='flex flex-col w-[50%] h-auto items-center justify-center space-y-6'>
         <Icon icon={book} size={40} className='text-white' />
         <h1 className='text-3xl text-gray-300'>سوالات متداول</h1>
@@ -52,6 +55,7 @@ function FifthPage() {
         </ul>
       </div>
     </div>
+          </Fade>
   );
 }
 

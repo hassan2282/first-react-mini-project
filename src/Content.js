@@ -4,6 +4,7 @@ import SecondPage from './SecondPage';
 import ThirdPage from './ThirdPage';
 import ForthPage from './ForthPage';
 import FifthPage from './FifthPage';
+import Footer from './Footer';
 
 function Content() {
   return (
