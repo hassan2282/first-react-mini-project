@@ -14,7 +14,7 @@ function ForthPage() {
               <div className='flex flex-row w-[38%] h-auto gap-2 justify-center' dir='rtl'>
                 <Fade right>
                   <button className='basis-1/4 p-3 shadow-md shadow-black active:shadow-none text-white rounded-md border-2 border-white hover:bg-purple-950 hover:text-white duration-150'>ارسال</button>
-                  <input type='email' className='basis-3/4 rounded-md  bg-transparent p-2 border-2 border-white  text-white' placeholder='ایمیل خود را وارد کنید ...' />
+                  <input type='email' className='basis-3/4 rounded-md  bg-transparent p-2 border-2 border-white text-white' placeholder='ایمیل خود را وارد کنید ...' />
                 </Fade>
               </div>
               <Fade bottom cascade>

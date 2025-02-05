@@ -20,3 +20,8 @@ code {
   font-family: 'Vazir';
   src: local('Vazir'), url(./fonts/Vazir.ttf) format('truetype');
 }
+
+::selection {
+  background: #7f07c5; 
+  color: #f5e9ff;
+}
