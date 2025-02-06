@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal'
 
 function Footer() {
   return (
-    <div className='flex flex-row items-center justify-center bg-purple-950 text-purple-200 w-full text-sm h-80 p-5' dir='rtl'>
+    <div id='footer' className='scroll-smooth flex flex-row items-center justify-center bg-purple-950 text-purple-200 w-full text-sm h-80 p-5' dir='rtl'>
       <Fade bottom cascade>
         <div className='flex flex-row w-[70%] h-full justify-around items-center'>
 

@@ -7,7 +7,7 @@ import Content from './Content';
 
 function App() {
   return (
-    <div className='flex flex-col w-full min-h-screen overflow-hidden bg-black items-center' style={{fontFamily: 'Vazir'}}>
+    <div className='flex flex-col w-full min-h-screen overflow-hidden bg-black items-center scroll-smooth' style={{fontFamily: 'Vazir'}}>
       <Header />
       <Content />
       <Footer />

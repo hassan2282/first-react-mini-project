@@ -7,7 +7,7 @@ import fast from "./lotties/lottie.json"
 
 function ThirdPage() {
   return (
-    <div className='flex flex-col w-screen h-96 p-10 items-center justify-center text-purple-400 bg-purple-950'>
+    <div id='learn' className='flex flex-col w-screen h-96 p-10 items-center justify-center text-purple-400 bg-purple-950 scroll-smooth'>
         <div className='flex flex-col w-[40%] items-center justify-center gap-4'>
         <Lottie animationData={fast} className='absolute z-0 w-[40%] opacity-20 hue-rotate-90'/>
 

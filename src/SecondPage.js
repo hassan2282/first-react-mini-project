@@ -8,7 +8,7 @@ import {threeDCube,chat,key,sunshine} from 'react-icons-kit/metrize'
 
 function SecondPage() {
   return (
-    <div className='flex flex-col w-screen h-screen justify-center items-center bg-[#F8E7F6] space-y-4 z-10 snap-y snap-mandatory'>
+    <div id='home' className='flex flex-col w-screen h-screen justify-center items-center bg-[#F8E7F6] space-y-4 z-10 snap-y snap-mandatory scroll-smooth'>
 
           <div className='flex flex-col justify-center items-center snap-center snap-always'>
               <div className='flex flex-col justify-center items-center mb-10 space-y-3'>

@@ -5,7 +5,7 @@ import { Fade } from 'react-reveal'
 
 function ForthPage() {
   return (
-    <div className='flex flex-col justify-center items-center w-screen h-screen overflow-hidden'>
+    <div id='features' className='flex flex-col justify-center items-center w-screen h-screen overflow-hidden'>
         <div className='flex flex-col justify-center items-center w-full h-full bg-fixed bg-[url(./images/15.jpg)] bg-cover z-10'>
           <div className='flex flex-col justify-center items-center w-[60%] h-[50%] rounded-md space-y-10 backdrop-blur-xl shadow-md'>
             <Fade left>
